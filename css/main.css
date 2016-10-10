@@ -45,3 +45,78 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
+
+/* ------------------
+GRID CSS STARTS HERE! 
+--------------------- */
+.row,
+.column {
+    box-sizing: border-box;
+}
+/* clearing the float */
+.row:before,
+.row:after {
+    content: " ";
+    display: table;
+}
+
+.row:after {
+    clear: both;
+}
+/* define columns */
+.column {
+    position: relative;
+    float: left;
+}
+/* creat gutters for grid */
+.column + .column {
+    margin-left: 1%;
+}
+/* define column widths */
+.column-1 {
+    width: 6.86666666667%;
+}
+
+.column-2 {
+    width: 15.3333333333%;
+}
+
+.column-3 {
+    width: 23.8%;
+}
+
+.column-4 {
+    width: 32.2666666667%;
+}
+
+.column-5 {
+    width: 40.7333333333%;
+}
+
+.column-6 {
+    width: 49.2%;
+}
+
+.column-7 {
+    width: 57.6666666667%;
+}
+
+.column-8 {
+    width: 66.1333333333%;
+}
+
+.column-9 {
+    width: 74.6%;
+}
+
+.column-10 {
+    width: 83.0666666667%;
+}
+
+.column-11 {
+    width: 91.5333333333%;
+}
+
+.column-12 {
+    width: 100%;
+}
