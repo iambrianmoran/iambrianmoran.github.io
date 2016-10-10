@@ -120,3 +120,32 @@ GRID CSS STARTS HERE!
 .column-12 {
     width: 100%;
 }
+
+/*Grid Styling*/
+body {
+    padding: 20px;
+}
+
+.column {
+    background: #eee;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    color: #777;
+    padding: 5px;
+    min-height: 30px;
+    text-align: center;
+}
+
+.row {
+    margin-bottom: 10px;
+}
+
+.row:last-child {
+    margin-bottom: 0;
+}
+
+.column .column {
+    color: #eee;
+    background: #333;
+    border-color: #000;
+}
