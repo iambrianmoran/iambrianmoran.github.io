@@ -70,7 +70,7 @@ GRID CSS STARTS HERE!
 }
 /* creat gutters for grid */
 .column + .column {
-    margin-left: 1%;
+    margin-left: 1.6%;
 }
 /* define column widths */
 .column-1 {
